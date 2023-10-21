@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+
+nav{
+    padding: 25px;
+    /* background-color: #000000; */
+    background-image: linear-gradient(to right, rgb(158, 12, 102) , rgb(9, 170, 71));
+    display:flex;
+    justify-content: space-between;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 5px solid rgb(120, 131, 24); */
+}
+.logo p{
+    text-decoration: none;
+    color: rgb(7, 243, 243);
+    font-weight: bold;
+    font-size: 3rem;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left:50px ;
+    
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 50px;
+    color: aqua;
+    font-family: fantasy;
+}
+.banner-info{
+    background-color: blueviolet; 
+    width: 500px;
+    height: 830px;
+    border-radius: 10%; 
+
+}
+
+.banner-info img{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10%;
+    
+}
+.banner-info img:hover{
+    width: 599px;
+
+}
+/* .banner h1{
+    font-size: 5px;
+    margin-left: 1rem; */
+/* } */
+/* .banner h2{
+    font-size: 50rem;
+    margin-left: 1rem;
+} */
+.banner{
+   /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 20px;
+    
+}
+.banner h3{
+    font-size: 47px;
+    padding: 10px;
+    
+}
+.banner p{
+
+    font-size: 25px;
+    padding: 3px;
+}
+.banner{
+    background-color: aqua;
+
+}
+.cotwo{
+    background-color: blueviolet;
+    width: 500px;
+    height: 830;
+    border-radius: 7%;
+    
+}
+.cotwo img{
+    width: 28rem;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.banner p1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.banner li{
+    font-size: 23px;
+}
+/* .banner cotree{
+    background-color: blueviolet;
+    width: 500px;
+    height: 830px;
+} */
+
+
+    /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container2 {
+  width: 90%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin-left: 30px;
+  border-radius: 50px ;
+  text-align: center;
+}
+
+.skills1, .skills2,.skills3,.skills4{
+  padding-top: 3px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+
+.skills1 {width: 90%; background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));} /* Green */
+.skills2 {width: 80%; background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));} /* Blue */
+.skills3 {width: 70%; background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));} /* Red */
+.skills4 {width: 60%; background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));} /* Dark Grey */
+
+#contact{
+    background-image: linear-gradient(to bottom right, rgb(230, 59, 59), yellow);
+    /* background-image: linear-gradient(to right, rgba(199, 13, 13, 0), rgb(11, 148, 107));   */
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#contact img{
+    width: 400px;
+  height: 400px;
+  margin-block: 40px;
+  margin-left: 350px;
+  
+}
+.banner h5{
+    font-size: 45px;
+    text-align: center;
+}
+#contact img:hover{
+    width: 450px;
+    height: 450px;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 768px) {
+#contact img{
+width: 100px;
+height: 100px;
+margin-block: 10px;
+margin-left: 100px;
+
+}
+#contact img:hover{
+    width: 150px;
+    height: 150px;
+}
+.cotwo img{
+    width: 300px;
+    height: 300px;
+}
+.banner-info img{
+    width: 250px;
+    padding: 15px;
+    border-radius: 10%;
+}
+.banner-info img:hover{
+    width: 300px;
+
+}
+
+.cotwo{
+    background-color: blueviolet;
+    width: 250px;
+    height: 415px;
+    border-radius: 7%;
+    
+}
+.banner-info{
+    background-color: blueviolet; 
+    width: 250px;
+    height: 415px;
+    border-radius: 10%; 
+   
+}
+.banner h5{
+    font-size: 22px;
+}
+.banner p{
+    font-size: 12px;
+}
+.skills1, .skills2,.skills3,.skills4{
+    padding-top: 0.1px; /* Add top padding */
+    padding-bottom: 0.1px; /* Add bottom padding */
+    color: white; /* White text color */
+    height: 13px;
+    
+}
+.container2{
+    width: 200px;
+}
+.banner h3{
+    font-size: 20px;
+}
+.banner p1{
+    font-size: 16px;
+}
+.banner li{
+    font-size: 10px;
+}
+.cotwo img{
+    width: 200px;
+    height: 200px;
+}
+.logo p{
+    font-size: 30px;
+}
+.menu li a{
+    font-size: 35px;
+}
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1200px){
+    #contact img{
+        width: 200px;
+        height: 200px;
+        margin-block: 20px;
+        margin-left: 200px;
+        
+        }
+        #contact img:hover{
+            width: 250px;
+            height: 250px;
+        }
+        .cotwo img{
+            width: 300px;
+            height: 300px;
+        }
+        .banner-info img{
+            width: 350px;
+            padding: 30px;
+            border-radius: 10%;
+        }
+        .banner-info img:hover{
+            width: 400px;
+        
+        }
+        
+        .cotwo{
+            background-color: blueviolet;
+            width: 350px;
+            height: 515px;
+            border-radius: 7%;
+            
+        }
+        .banner-info{
+            background-color: blueviolet; 
+            width: 350px;
+            height: 515px;
+            border-radius: 10%; 
+           
+        }
+        .banner h5{
+            font-size: 22px;
+        }
+        .banner p{
+            font-size: 12px;
+        }
+        .skills1, .skills2,.skills3,.skills4{
+            padding-top: 0.1px; /* Add top padding */
+            padding-bottom: 0.1px; /* Add bottom padding */
+            color: white; /* White text color */
+            height: 13px;
+            
+        }
+        .container2{
+            width: 300px;
+        }
+        .banner h3{
+            font-size: 30px;
+        }
+        .banner p1{
+            font-size: 20px;
+        }
+        .banner li{
+            font-size: 20px;
+        }
+        .cotwo img{
+            width: 300px;
+            height: 300px;
+        }
+        .logo p{
+            font-size: 30px;
+        }
+        .menu li a{
+            font-size: 35px;
+        }
+}
+
+@media (min-width: 1200px) and (max-width: 5000px){
+    #contact img{
+        width: 300px;
+      height: 300px;
+      margin-block: 40px;
+      margin-left: 350px;
+        }
+        #contact img:hover{
+            width: 450px;
+            height: 450px;
+        }
+        .cotwo img{
+            width: 28rem;
+            border-radius: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        .banner-info img{
+            width: 500px;
+            padding: 15px;
+            border-radius: 10%;
+        }
+        .banner-info img:hover{
+            width: 550px;
+        
+        }
+        
+        .cotwo{
+            background-color: blueviolet;
+            width: 500px;
+            height: 830;
+            border-radius: 7%;
+            
+        }
+        .banner-info{
+            background-color: blueviolet; 
+            width: 500px;
+            height: 830px;
+            border-radius: 10%; 
+        
+        }
+        .banner h5{
+            font-size: 45px;
+            text-align: center;
+        }
+        .banner p{
+
+            font-size: 25px;
+            padding: 3px;
+        }
+        .skills1, .skills2,.skills3,.skills4{
+            padding-top: 3px; /* Add top padding */
+            padding-bottom: 5px; /* Add bottom padding */
+            color: white; /* White text color */
+            height: 30px;
+            
+        }
+        .container2{
+            width: 450px;
+        }
+        .banner h3{
+            font-size: 47px;
+            padding: 10px;
+            
+        }
+        .banner p1{
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .banner li{
+            font-size: 23px;
+        }
+        
+        .logo p{
+            font-size: 3rem;
+        }
+        .menu li a{
+            font-size: 50px;
+        }
+}
